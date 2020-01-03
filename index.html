@@ -11,12 +11,16 @@
     <title>This is my title</title>
   </head>
   <body>
-    <h1>This is my big title</h1>
-    <header>This is an important section</header>
-    <!-- 박스 컨테이너 같은 tags-->
-    <div>Whatever</div>
-    <!-- 텍스트를 위한 컨테이너-->
-    <span>Something else</span>
-    <h6>This is my small title</h6>
+    <section>
+      <!-- id는 고유한 것. class는 동일한 속성이 있을 때마다 계속 사용 가능-->
+      <header id="headerNumberOne" class="defaultHeader">
+        <h1>Title of a section</h1>
+      </header>
+    </section>
+    <div>
+      <header id="differentHeader" class="defaultHeader">
+        Title of the unkwon container
+      </header>
+    </div>
   </body>
 </html>
