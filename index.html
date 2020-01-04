@@ -1,26 +1,26 @@
-<!-- html 문서임을 알려줌 self-contained 태그 자체로 정보 제공이므로 닫는 태그가 없다.-->
 <!DOCTYPE html>
-<html>
-  <!-- 유저에게 보이지 않는 태그. 브라우저에게 웹사이트에 관한 필요한 정보만 제공-->
+<html lang="en">
   <head>
-    <!--utf-8방식으로 encoding-->
-    <meta charset="utf-8" />
-    <meta name="author" content="Jinho" />
-    <!-- 검색할 때 나오는 간략한 소개 글-->
-    <meta name="description" content="Welcome to my kakao Clone" />
-    <title>This is my title</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/cbf583c735.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chats | Kakao Clone</title>
   </head>
   <body>
-    <section>
-      <!-- id는 고유한 것. class는 동일한 속성이 있을 때마다 계속 사용 가능-->
-      <header id="headerNumberOne" class="defaultHeader">
-        <h1>Title of a section</h1>
-      </header>
-    </section>
-    <div>
-      <header id="differentHeader" class="defaultHeader">
-        Title of the unkwon container
-      </header>
+    <div class="status-bar">
+      <div class="status-bar__column"></div>
+      <span class="status-bar__clock">12:04</span>
+      <div class="status-bar__column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
     </div>
   </body>
 </html>
